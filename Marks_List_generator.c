@@ -1,11 +1,8 @@
+//delete option under process
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
-#include<time.h>
-#include<math.h>
-#include<unistd.h>
 #include<string.h>
-#include<ctype.h>
 FILE* fp;
 struct report
 {
@@ -30,7 +27,7 @@ void choose(report *r, char sub[5][10], int f , int n)
     char info[100]; int j=0;
     system("cls");
     int ch;
-    printf("Choose-\n1.Add more\n2.Display\n3.Top Three\n4.Exit\n");
+    printf("Choose-\n1.Add more\n2.Display\n3.Delete\n4.Exit\n");
     scanf("%d",&ch);
     switch(ch)
     {
