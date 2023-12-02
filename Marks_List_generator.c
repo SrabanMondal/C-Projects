@@ -2,11 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
-#include<time.h>
-#include<math.h>
-#include<unistd.h>
 #include<string.h>
-#include<ctype.h>
 int l;
 FILE* fp;
 struct report
