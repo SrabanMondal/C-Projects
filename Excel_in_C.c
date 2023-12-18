@@ -259,7 +259,7 @@ void save()
     }
     fclose(fp);
     }
-    printf("Saved");
+    printf("Saved\n");
     choose2(2);
 }
 void view()
