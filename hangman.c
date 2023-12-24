@@ -5,7 +5,7 @@
 #include<string.h>
 #include<ctype.h>
 int l;
-char app[10][20]={"google","youtube","instagram","facebook","twitter","tinder","snapchat","clubhouse","whatsapp","telegram"};
+char app[10][20]={"google","youtube","instagram","facebook","twitter","tinder","snapchat","pininterest","whatsapp","telegram"};
 
 void display(int n,char ch, char word[10]);
 void screen();
