@@ -66,10 +66,10 @@ void word()
     printf("You lost.\nCorrect word is %s",app[i]);
 }
 
+char c[8];
 void display(int n,char ch, char word[10])
 {
     system("cls");
-    char c[8];
     if(ch!='\0') c[n-1]=ch;
     char stick[]={'|','(',')','/','|','\\','/','\\'};
     char body[]={' ',' ',' ',' ',' ',' ',' ',' '};
